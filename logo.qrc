@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/logo">
+        <file>eaglesLogo.png</file>
+        <file>UofMlogo.jpg</file>
+    </qresource>
+</RCC>
