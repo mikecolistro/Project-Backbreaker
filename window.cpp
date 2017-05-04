@@ -82,8 +82,8 @@ m_counter = 0;
 connect(m_button, SIGNAL (clicked(bool)), this, SLOT (slotButtonClicked(bool)));
  connect(this, SIGNAL (counterReached()), QApplication::instance(), SLOT (quit()));
 
- password->returnPressed.connect(slotButtonClicked(bool));
-
+ //connect(password,SIGNAL("returnPressed()"),slotButtonClick(bool));
+ 
 }
 void Window::slotButtonClicked(bool checked)
 {
